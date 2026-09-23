@@ -1,83 +1,122 @@
-# AI Workplace Assistant
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS-style web app called AI Workplace Productivity Assistant for professionals.
+A modern, responsive web application that helps professionals improve workplace productivity using AI-powered productivity tools.
 
-Core Features
+## Features
 
-Smart Email Generator
+### 📧 Smart Email Generator
 
-Generate professional emails.
+* Generate professional workplace emails.
+* Choose between **Formal, Friendly, and Persuasive** tones.
+* Edit generated emails before using them.
+* Copy, regenerate, or clear generated content.
 
-Tones: Formal, Friendly, Persuasive.
+### 📝 Meeting Notes Summarizer
 
-Editable AI output with Copy, Regenerate, and Clear buttons.
+* Paste lengthy meeting notes.
+* Generate concise summaries.
+* Extract:
 
-Meeting Notes Summarizer
+  * Key decisions
+  * Action items
+  * Deadlines
+* Edit the generated results.
 
-Paste lengthy meeting notes.
+### 📅 AI Task Planner
 
-Generate a Summary, Key Decisions, Action Items, and Deadlines.
+* Add workplace tasks and deadlines.
+* Set task priorities.
+* Generate **daily or weekly schedules**.
+* Automatically organise tasks by priority.
+* Edit generated schedules.
 
-Make all generated content editable.
+## Dashboard
 
-AI Task Planner
+The dashboard provides:
 
-Enter tasks, deadlines, priorities, and estimated time.
+* Quick access to all AI tools
+* Productivity statistics
+* Recent activity
+* Clean and easy-to-use navigation
 
-Generate Daily or Weekly schedules.
+## Design
 
-Prioritise tasks and allow editing.
+The application uses a modern SaaS-style interface with:
 
-UI/Design
+* Tiffany Blue
+* Black
+* White
+* Light grey
+* Responsive layouts
+* Sidebar navigation
+* Modern cards and buttons
+* Mobile-friendly design
 
-Modern professional SaaS dashboard.
+## AI Functionality
 
-Tiffany Blue, Black, White, and light grey colour scheme.
+The application uses **simulated AI responses** for demonstration purposes.
 
-Responsive desktop, tablet, and mobile design.
+AI prompts follow a structured format:
 
-Left sidebar navigation: Dashboard, Email Generator, Meeting Summarizer, Task Planner, Settings.
-
-Dashboard with welcome message, quick-action cards, productivity statistics, and recent activity.
-
-Use clean cards, rounded corners, subtle shadows, icons, and modern typography.
-
-AI Behaviour
-
-Use simulated frontend AI responses only. No backend or API is required.
-
-Use structured prompts based on:
-Role → Task → Context → Requirements → Output Format
-
-Include loading states, validation, notifications, and editable AI outputs.
-
-Responsible AI
-
-Display this disclaimer:
-
-"AI-generated content may contain errors. Review and verify outputs before using them for workplace decisions or communication. Do not enter confidential or sensitive information."
-
-Scope
-
-Keep it simple and do not over-engineer. No backend, database, authentication, payments, or unnecessary features. The final result should look like a polished professional SaaS productivity dashboard.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/86292d24-cbc5-4f93-8435-04f24edf71b2).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+```text
+Role
+Task
+Context
+Requirements
+Output Format
 ```
+
+No backend or external AI API is required.
+
+## Responsible AI
+
+> AI-generated content may contain errors. Review and verify outputs before using them for workplace decisions or communication. Do not enter confidential or sensitive information.
+
+## Project Scope
+
+This is a frontend-focused application designed to demonstrate an AI workplace productivity platform.
+
+The project does **not** include:
+
+* Backend services
+* Database
+* User authentication
+* Payment systems
+* External AI APIs
+* Complex infrastructure
+
+The goal is to provide a simple, professional, and functional SaaS-style prototype.
+
+## Responsive Design
+
+The application is designed to work across:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile devices
+
+The sidebar adapts to smaller screens, and content automatically adjusts to different screen sizes.
+
+## Main Navigation
+
+```text
+Dashboard
+│
+├── Smart Email Generator
+├── Meeting Notes Summarizer
+├── AI Task Planner
+└── Settings
+```
+
+## Getting Started
+
+1. Clone or download the project.
+2. Open the project in your preferred code editor.
+3. Install the required dependencies if applicable.
+4. Run the development server.
+5. Open the application in your browser.
+
+## Project Purpose
+
+The **AI Workplace Productivity Assistant** demonstrates how AI-inspired tools can help professionals save time, organise information, generate workplace communication, summarise meetings, and plan tasks efficiently.
